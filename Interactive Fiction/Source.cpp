@@ -27,8 +27,11 @@ int main()
 
 int AddTwoNumbers(int firstNumber, int secondNumber)
 {
+	//Show the numbers for the user's benefit
+	cout << "\nThe two numbers are: " << firstNumber << " + " << secondNumber << endl;
+	
 	//Print what the function does
-	cout << "\nI am calculating two numbers...\n";
+	cout << "\nI am calculating the two numbers...\n";
 	
 	//Create variable to hold the sum and add the two numbers together
 	int sum = firstNumber + secondNumber;
